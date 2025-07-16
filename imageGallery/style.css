@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    background-color: darkred;
+    color: gold;
+    
+}
+hr{
+    color: aqua;
+}
+.gallery{
+    margin-top: 10px;
+    padding:5px;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap; /* isse grid vali cheez ayi */
+}
+
+.image{
+    background-color: #fff;
+    padding: 10px;
+    width: calc(33.33% - 7px); /*gap adjust kra h */
+    text-align: center;
+    color:red;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.head{
+    text-align: center;
+}
